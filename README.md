@@ -4,8 +4,10 @@ You can use the `shadcn` CLI to run your own component registry. Running your ow
 component registry allows you to distribute your custom components, hooks, pages, and
 other files to any React project.
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
 > This template uses Tailwind v4. For Tailwind v3, see [registry-template-v3](https://github.com/shadcn-ui/registry-template-v3).
+
+Reference [MagicUI](https://github.com/magicuidesign/magicui/blob/471823de376f8eb6c7721ab3a10fd9b5da24dc43/registry.json)
 
 ## Getting Started
 
