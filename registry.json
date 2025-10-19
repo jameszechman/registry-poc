@@ -23,7 +23,15 @@
           "path": "registry/ui/components/button/button.tsx",
           "type": "registry:ui"
         }
-      ]
+      ],
+      "cssVars": {
+        "light": {
+          "brand": "15, 100%, 72%"
+        },
+        "dark": {
+          "brand": "15, 100%, 72%"
+        }
+      }
     },
     {
       "name": "utils",
