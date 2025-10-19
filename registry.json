@@ -13,6 +13,19 @@
       "cssVars": {}
     },
     {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "custom-theme",
+      "type": "registry:theme",
+      "cssVars": {
+        "light": {
+          "brand": "oklch(0.6018 0.1666 38.29)"
+        },
+        "dark": {
+          "brand": "oklch(0.6018 0.1666 38.29)"
+        }
+      }
+    }
+    {
       "name": "button",
       "type": "registry:ui",
       "title": "Button",
@@ -23,15 +36,7 @@
           "path": "registry/ui/components/button/button.tsx",
           "type": "registry:ui"
         }
-      ],
-      "cssVars": {
-        "light": {
-          "brand": "oklch(0.6018 0.1666 38.29)"
-        },
-        "dark": {
-          "brand": "oklch(0.6018 0.1666 38.29)"
-        }
-      }
+      ]
     },
     {
       "name": "utils",
