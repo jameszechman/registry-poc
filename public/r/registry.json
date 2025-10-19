@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "larsa-ui",
+  "name": "zechman",
   "homepage": "https://ui.zechman.dev",
   "items": [
     {
@@ -17,13 +17,21 @@
       "type": "registry:ui",
       "title": "Button",
       "description": "A button component",
-      "registryDependencies": [],
+      "dependencies": ["@radix-ui/react-slot"],
       "files": [
         {
           "path": "registry/ui/components/button/button.tsx",
-          "type": "registry:component"
+          "type": "registry:ui"
         }
-      ]
+      ],
+      "cssVars": {
+        "light": {
+          "brand": "0.7 0.1702 66.71"
+        },
+        "dark": {
+          "brand": "0.7 0.1702 66.71"
+        }
+      }
     },
     {
       "name": "utils",
